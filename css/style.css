@@ -1,30 +1,18 @@
 @charset "UTF-8" ;
 
-/* .fade {
-  animation: fadeIn 1s forwards;
-  animation-iteration-count: 1;
-}
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
+@media screen and (min-width:480px) {
+  #header {
+    max-width: 75%;
   }
-  100% {
-    opacity: 1;
-  }
-} */
 
-@media screen and (max-width:480px) {
- img {
-   max-width: 100%;
+  .container {
+    width: 70%;
+  }
  }
-}
 
 #header {
-  /* background-image: url(../img/header_top.png); */
-  /* background-size: cover; */
-  max-width: 75%;
+  max-width: 100%;
   height: auto;
-  
 }
 
 h3 {
@@ -62,12 +50,7 @@ h3:after {
 }
 
 .font2 {
-  /* font-family: 'Noto Sans JP', sans-serif; */
   font-family: 'Sawarabi Gothic', sans-serif;
-}
-
-.container {
-  width: 70%;
 }
 
 .font_size {
